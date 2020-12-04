@@ -31,4 +31,6 @@ User might notice in the main block, the seed used for randomly initializing wei
 This code has an accuracy of 96% for training set and 68%(by choosing proper iteration times, might reach 69%) for testing set. What interesting here is, when I set up a single layer network,  the classification accuracy of testing set is 70%. It should be more accurate as the layers are growing. But it has been not.
 The possible reason I think is the number of neurons in the hidden layer is not enough. For this code, it is 4. And, maybe deeper learning is also helpful.
 
+I indeed refered to a blog to find a function for calculating the Cost. Becasue the Cost function introduced by the Youtube video C(w,b)≡1/2n∑∥y(x)−a∥^2, did not work well on the code.
+
 
