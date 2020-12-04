@@ -484,7 +484,6 @@ def classify_result(weight1, bias1, weight2, bias2, which_image, image_set):
         weight1, bias1, weight2, bias2, image_set)
     yes_or_no = np.squeeze(the_classified_array)
     yes_or_no = yes_or_no.tolist()
-    print(yes_or_no[which_image - 1])
     if yes_or_no[which_image - 1] == 0.0:
         which_file = h5py.File('test_cat.h5', 'r')
         train_set_x_orig = np.array(which_file['test_set_x'][:])
