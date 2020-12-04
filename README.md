@@ -27,6 +27,8 @@ second image to view: 25 (As the image is 64 * 64 pixel, the cat is not looks we
 
 User might notice in the main block, the seed used for randomly initializing weight has been assign a fixed value. Please keep this fixed value or it might face the overflow error! There are some ohter error handling which will be activated when user changed some vital part of the code.
 
+Don't forget to put the h5.file in the same directory.
+
 # Discussion
 This code has an accuracy of 96% for training set and 68%(by choosing proper iteration times, might reach 69%) for testing set. What interesting here is, when I set up a single layer network,  the classification accuracy of testing set is 70%. It should be more accurate as the layers are growing. But it has been not.
 The possible reason I think is the number of neurons in the hidden layer is not enough. For this code, it is 4. And, maybe deeper learning is also helpful.
