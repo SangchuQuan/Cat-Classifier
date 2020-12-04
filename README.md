@@ -35,7 +35,9 @@ I indeed refered to a blog to find a function for calculating the Cost. Becasue 
 
 # Reference
 Youtube. 2017. Neural Networks. [online] Available at: <https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2> [Accessed 16 November 2020].
+
 Blog.csdn.net. 2020. Neural Network And Deep Learning. [online] Available at: <https://blog.csdn.net/u013733326/article/details/79639509> [Accessed 22 November 2020].
+
 Nielsen, M., 2020. Neural Networks And Deep Learning. [online] Neuralnetworksanddeeplearning.com. Available at: <http://neuralnetworksanddeeplearning.com/chap1.html> [Accessed 20 November 2020].
 
 
